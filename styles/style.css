@@ -1,0 +1,702 @@
+body {
+  background-color: #fef4ff;
+  font-family: "Times New Roman", serif;
+  font-size: 16px;
+}
+
+.logo {
+  padding-right: 51px;
+}
+
+.navbar-toggler {
+  background-color: #3980ff; /* Цвет фона бургера */
+  border-radius: 5px;
+  height: 52px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-item {
+  padding-right: 25px;
+}
+
+.nav-item a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 149%;
+}
+
+.nav-link:hover {
+  color: #3980ff !important;
+}
+
+.dropdown-item:hover {
+  font-weight: bold;
+  color: #3980ff;
+}
+
+@media (max-width: 991px) {
+}
+
+.container-xxl {
+  /* border: 1px solid rgb(58, 215, 14); */
+}
+
+.messenger {
+  width: 48px;
+  height: 48px;
+  background-color: #3980ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.messenger:hover {
+  border: 1px dashed yellow;
+}
+
+.right {
+  margin-right: 11px;
+}
+
+.whatsapp {
+  padding: 13px;
+}
+
+.telegram {
+  padding: 16px 14px 15px 13px;
+}
+
+.phone {
+  color: #4386ff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.email {
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.41);
+}
+
+.dropdown-toggle {
+  position: relative;
+}
+
+.nav-link.dropdown-toggle::after {
+  content: url(../images/arrow.svg);
+  display: block;
+  border-top: 0;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+/* SECTION DEVELOPMENT */
+
+@media (max-width: 1440px) {
+}
+
+@media (min-width: 1900px) {
+}
+
+.development {
+  position: relative;
+  background-image: url(../images/blue1.png);
+  background-position: center center;
+  background-size: cover;
+  background-color: #3980ff;
+  border-radius: 20px;
+  margin: 0 1%;
+  border: 1px solid rgba(11, 0, 224, 0);
+  padding-bottom: 5%;
+}
+
+.ball_1 {
+  position: absolute;
+  right: 42%;
+  top: 30%;
+}
+
+.ball_2 {
+  position: absolute;
+  right: 11%;
+  top: 25%;
+}
+
+.whiteHead {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 103%;
+  color: #fff;
+  padding-bottom: 14px;
+}
+
+.dev {
+  max-width: 641px;
+}
+
+.whiteparagraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 149%;
+  color: #fff;
+}
+
+.butt {
+  margin-top: 39px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-dev {
+  width: 268px;
+  height: 73px;
+
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 149%;
+  color: #fff;
+
+  border-radius: 10px;
+  border: none;
+
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-dev:active {
+  transform: scale(0.95);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.red {
+  margin-right: 26px;
+  background-color: #eb5757;
+  margin-bottom: 10px;
+}
+
+.blue {
+  background-color: #0c4ab3;
+}
+
+.mobiledev {
+  margin-top: 18%;
+}
+
+/* SECTION OUR SERVICES */
+
+.service {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.blackHead {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 103%;
+  color: #000;
+}
+
+.blackparagraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 128%;
+  color: rgba(0, 0, 0, 0.69);
+  margin-bottom: 0;
+}
+
+/* SECTION STAGES OF DEVELOPMENT */
+
+.backgrounderblue {
+  min-height: 80vh;
+  margin: 0 1%;
+  background-color: #3980ff;
+  border-radius: 20px;
+  padding-bottom: 40px;
+}
+
+.stages {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.knopka {
+  width: 100%;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 149%;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Head5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133%;
+  color: #fff;
+}
+
+.p5 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 151%;
+  color: #fff;
+}
+
+.card {
+  background-color: #3980ff;
+  border: none;
+}
+
+.grid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px 30px;
+
+  grid-template-areas:
+    ". . . ."
+    ". . . .";
+}
+
+/* При уменьшении экрана до 768px (планшеты и мобильные устройства) */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Перенос элементов в столбец */
+    grid-template-rows: repeat(
+      4,
+      1fr
+    ); /* Настройка количества строк для размещения элементов */
+    grid-template-areas:
+      "."
+      "."
+      "."
+      "."; /* Обновляем сеточные области под новый макет */
+  }
+}
+
+.card-body {
+  padding: 0;
+}
+
+.top {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.orderapp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.h6_cost {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 128%;
+  color: #000;
+}
+
+.orderapp .cardapp:nth-child(1) .h6_cost::before {
+  content: url(../images/typical.svg);
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.orderapp .cardapp:nth-child(2) .h6_cost::before {
+  content: url(../images/business.svg);
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.orderapp .cardapp:nth-child(3) .h6_cost::before {
+  content: url(../images/custom.svg);
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.mouse {
+  position: relative;
+}
+
+.pmouse {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+}
+
+.cardapp {
+  width: 410px;
+  height: 480px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрируем все элементы по горизонтали */
+  justify-content: space-between; /* Равномерно распределяем пространство внутри */
+  text-align: center; /* Текст по центру */
+  padding-bottom: 40px;
+  margin-bottom: 100px;
+}
+
+.flag {
+  align-self: flex-end; /* Флаг будет в левом верхнем углу */
+  margin-right: 70px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 128%;
+  color: #000;
+}
+
+.check-icon.icon-type1 {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/click.svg); /* Путь к первой иконке */
+  background-size: cover;
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.check-icon.icon-type2 {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/blue.svg); /* Путь ко второй иконке */
+  background-size: cover;
+  display: inline-block;
+  margin-left: 90px;
+}
+
+.check-icon.icon-type3 {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/red.svg); /* Путь к третьей иконке */
+  background-size: cover;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.mill {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 128%;
+  text-align: center;
+  color: #000;
+}
+
+.look {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 128%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 0.51);
+}
+
+.btn-order {
+  border: 1px solid #3980ff;
+  border-radius: 10px;
+  padding: 24px 43px;
+  width: 268px;
+  height: 73px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 149%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3980ff;
+  text-decoration: none;
+}
+
+.btn-order:hover {
+  background-color: #3980ff;
+  color: #ffff;
+}
+
+.sum {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 128%;
+  text-align: center;
+  color: #000;
+}
+
+/* SECTION COST  */
+
+/* SECTION TASKS  */
+
+.Head4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 128%;
+  color: #000;
+}
+
+.p6 {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 133%;
+  color: #000;
+}
+
+.backgrounderwhite {
+  background-color: #ffffff; /* Белый фон */
+  background-image: url(../images/ss.png); /* Фоновое изображение */
+  background-position: center top 80px; /* Отступ сверху для изображения */
+  background-size: auto; /* Оставляем оригинальный размер изображения */
+  background-repeat: no-repeat; /* Отключаем повтор изображения */
+  border-radius: 20px; /* Округленные углы */
+  margin: 0 1%; /* Внешние отступы */
+  min-height: 936px; /* Минимальная высота */
+  padding-top: 80px; /* Внутренний отступ сверху */
+  padding-bottom: 50px; /* Внутренний отступ снизу */
+}
+
+.osnova {
+  position: relative;
+}
+
+.phone-image {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+/* SECTION ORDER */
+
+.order {
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+.formHead {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 128%;
+  color: #000;
+  padding-bottom: 24px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.budget-options {
+  padding: 20px;
+}
+
+.contact-info {
+  padding: 20px;
+}
+
+.price {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+}
+
+.form-control {
+  background-color: #fef4ff;
+  max-width: 471px;
+  height: 64px;
+}
+
+.price button {
+  width: 100%;
+}
+
+.comment {
+  resize: none;
+  height: 201px;
+}
+
+@media (max-width: 768px) {
+  .price {
+    display: none;
+  }
+  .contact-info {
+    margin-top: 20px;
+  }
+}
+
+.btn-app {
+  background-color: #fef4ff;
+  border: 1px solid #3980ff;
+  border-radius: 93px;
+  width: 315px;
+  height: 106px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 128%;
+  color: #000;
+}
+
+/* Стиль для активной кнопки */
+.btn-app.active {
+  background-color: #007bff; /* Цвет фона активной кнопки */
+  color: #fff; /* Цвет текста активной кнопки */
+  border-color: #007bff; /* Цвет границы активной кнопки */
+}
+
+.btn-primary {
+  border: 1px solid #3980ff;
+  border-radius: 10px;
+  padding: 24px 43px;
+  max-width: 310px;
+  height: 73px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 149%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1280px) {
+  .logo {
+    padding-right: 0;
+  }
+
+  .order {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 1024px) {
+  footer {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .ball_2 {
+    display: none;
+  }
+
+  .ball_1 {
+    display: none;
+  }
+
+  .phone-image {
+    top: 129%;
+  }
+
+  .order {
+    margin-top: 150%;
+  }
+}
+
+@media (max-width: 540px) {
+  .cardapp {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .text_1 {
+    width: 234px;
+  }
+
+  .logo {
+    width: 254px;
+  }
+
+  .phone-image {
+    display: none;
+  }
+
+  .order {
+    margin-top: 10%;
+  }
+
+  .ball_2 {
+    display: none;
+  }
+
+  .ball_1 {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .phone-image {
+    width: 600px;
+    height: 600px;
+  }
+
+  .cardapp {
+    width: 300px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .ball_1 {
+    top: 52%;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-info {
+    padding: 0;
+    padding-bottom: 5px;
+  }
+
+  .ball_1 {
+    position: absolute;
+    right: 42%;
+    top: 45%;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .btn-primary {
+    text-align: center;
+  }
+
+  .phone-image {
+    top: 135%;
+    width: 353px;
+    height: 636px;
+  }
+
+  .order {
+    margin-top: 56%;
+  }
+}
