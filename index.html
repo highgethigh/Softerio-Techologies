@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Softerio Technologies</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container-xxl">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <!-- Логотип -->
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.svg" alt="logo" class="logo">
+                </a>
+                <!-- Бургер-меню -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Основное меню и блоки -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <!-- Меню -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Наши услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Этапы работы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Стоимость</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ещё
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Статьи</a></li>
+                                <li><a class="dropdown-item" href="#">Вакансии</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Контактная информация -->
+                    <div class="d-flex flex-column contact-info me-3">
+                        <a href="tel:+74993488216" class="phone">8 (499) 348-82-16</a>
+                        <a href="mailto:hello@softerio.ru" class="email">hello@softerio.ru</a>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="btn-messenger d-flex">
+                        <div class="messenger right">
+                            <img src="./images/whatsapp.svg" alt="whatsapp" class="whatsapp">
+                        </div>
+
+                        <div class="messenger">
+                            <img src="./images/telegram.svg" alt="telegram" class="telegram">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="development">
+            <img src="./images/ball_1.svg" alt="ball_1" class="ball_1">
+            <img src="./images/ball_2.svg" alt="ball_2" class="ball_2">
+            <div class="container-xxl">
+                <div class="mobiledev">
+                    <h1 class="whiteHead dev">Разработка мобильных приложений и сервисов</h1>
+
+                    <div class="d-flex align-items-center rocket" style="padding-bottom: 14px;">
+                        <img src="./images/rocket.svg" alt="rocket" class="me-5">
+                        <p class="whiteparagraph mb-0">Знаем, как решить вашу задачу оптимальным <br /> способом</p>
+                    </div>
+
+                    <div class="d-flex align-items-center cup">
+                        <img src="./images/cup.svg" alt="cup" class="me-5">
+                        <p class="whiteparagraph mb-0" style="padding-left: 3px;">Подберем подходящее решение с учетом целей <br /> и возможностей</p>
+                    </div>
+
+                    <div class="butt">
+                        <a href="#order" class="btn-dev red">Заказать приложение</a>
+                        <a href="#order" class="btn-dev blue">Онлайн-консультация</a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <section class="ourservices">
+            <div class="container-xxl">
+                <div class="text__services service">
+                        
+                    <h1 class="blackHead">Наши услуги</h1>
+                    <p class="blackparagraph">Разработка мобильных приложений и веб-проектов <br /> для бизнеса и стартапов</p>
+
+                    <div class="container my-5">
+                        <div class="row">
+                            <div class="col-12 col-md-4 mb-3 px-0">
+                                <div class="img-container">
+                                    <img src="./images/mobiledev.svg" class="d-block w-100" alt="mobiledev">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 mb-3 px-0">
+                                <div class="img-container">
+                                    <img src="./images/webdev.svg" class="d-block w-100" alt="webdev">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 mb-3 px-0">
+                                <div class="img-container">
+                                    <img src="./images/designmobileapp.svg" class="d-block w-100" alt="designmobileapp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="stagesofdevelopment">
+            <div class="backgrounderblue">
+                <div class="container-xxl">
+                    <div class=wrapper">
+                        <h1 class="whiteHead stages top">Этапы разработки</h1>
+              
+                        <div class="grid">
+                          <div class="card">
+                              <img src="./images/collection.svg" class="card-img-top" alt="collection">
+                              <div class="card-body">
+                                  <div class="d-flex align-items-center top">
+                                      <img src="./images/one.svg" alt="one" class="icon me-3">  
+                                      <h5 class="card-title Head5 mb-0">Сбор требований</h5>
+                                  </div>
+                                  <p class="card-text p5">Детальное изучение требований, ресурсов и исходной информации по проекту и формирование технического задания на разработку ПО.</p>
+                              </div>
+                          </div>
+                          
+                          <div class="card">
+                              <img src="./images/ui:ux.svg" class="card-img-top" alt="ui/ux">
+                              <div class="card-body">
+                                  <div class="d-flex align-items-center top">
+                                      <img src="./images/two.svg" alt="two" class="icon me-3">
+                                      <h5 class="card-title Head5 mb-0">UI/UX Дизайн</h5>
+                                  </div>
+                                <p class="card-text p5">Разработка современного функционального и удобного дизайна с применением новейших инструментов.</p>
+                              </div>
+                          </div>
+  
+                          <div class="card">
+                              <img src="./images/prototype.svg" class="card-img-top" alt="prototype">
+                              <div class="card-body">
+                                  <div class="d-flex align-items-center top">
+                                      <img src="./images/three.svg" alt="three" class="icon me-3">
+                                      <h5 class="card-title Head5 mb-0">Прототип (MVP)</h5>
+                                  </div>
+                                  <p class="card-text p5">В результате проектирования формируется прототип и отправляется для разработки продукта</p>
+                              </div>
+                          </div>
+  
+                          <div class="card">
+                              <img src="./images/develop.svg" class="card-img-top" alt="develop">
+                              <div class="card-body">
+                                  <div class="d-flex align-items-center top">
+                                      <img src="./images/four.svg" alt="four" class="icon me-3">
+                                      <h5 class="card-title Head5 mb-0">Разработка</h5>
+                                  </div>
+                                  <p class="card-text p5">Процесс разработки системы интеллектуального учета, мобильного приложения или веб-сайта в режиме максимальной прозрачности.</p>
+                              </div>
+                          </div>
+  
+                          <div class="card">
+                              <img src="./images/test.svg" class="card-img-top" alt="test">
+                              <div class="card-body">
+                                  <div class="d-flex align-items-center top">
+                                      <img src="./images/five.svg" alt="five" class="icon me-3">
+                                      <h5 class="card-title Head5 mb-0">Тестирование</h5>
+                                  </div>
+                                  <p class="card-text p5">В ходе тестовых запусков обеспечиваем полную отказоустойчивость продукта.</p>
+                              </div>
+                          </div>
+  
+                          <div class="card">
+                              <img src="./images/deployment.svg" class="card-img-top" alt="deployment">
+                              <div class="card-body">
+                                  <div class="d-flex align-items-center top">
+                                      <img src="./images/six.svg" alt="six" class="icon me-3">
+                                      <h5 class="card-title Head5 mb-0">Развертывание</h5>
+                                  </div>
+                                  <p class="card-text p5">Запуск готового продукта в работу (ИСУ, сайта, приложения).</p>
+                              </div>
+                          </div>
+  
+                          <div class="card">
+                              <img src="./images/support.svg" class="card-img-top" alt="support">
+                              <div class="card-body">
+                                  <div class="d-flex align-items-center top">
+                                      <img src="./images/seven.svg" alt="seven" class="icon me-3">
+                                      <h5 class="card-title Head5 mb-0">Поддержка и обслуживание</h5>
+                                  </div>
+                                  <p class="card-text p5">Обеспечиваем полную техническую поддержку и сопровождение по всем вопросам, возникающим после развертывания.</p>
+                              </div>
+                          </div>
+  
+                          <div class="card">
+                                  <a href="#order" class="btn-primary red knopka">Оставить заявку</a>
+                          </div>
+  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="cost">
+            <div class="container-xxl">
+                <div class="text__services">
+                    <h1 class="blackHead stages">Стоимость разработки мобильных <br /> приложений</h1>
+                    <p class="blackparagraph stages">Мы собрали стандартные элементы приложений в пакеты, для примерного понимания стоимости разработки. <br /> Чтобы заказать мобильное приложение свяжитесь с нами, мы вас проконсультируем, проведем аудит ценовых <br /> предложений других студий. Ниже цены на типовые приложения.</p>
+                    
+
+                    <div class="orderapp">
+                        <div class="cardapp">
+                            <svg class="flag" width="21" height="38" viewBox="0 0 21 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 38V0H21V38L10.5 27.3824L0 38Z" fill="#3980FF" />
+                              </svg>
+                            <h6 class="h6_cost">Типовой</h6>
+                            <div class="list">
+                                <p class="item">
+                                    Каталог товаров или услуг
+                                    <span class="check-icon icon-type1"></span>
+                                </p>
+                                <p class="item">
+                                    Сделать заказ
+                                    <span class="check-icon icon-type1"></span>
+                                </p>
+                                <p class="item">
+                                    Новости и акции
+                                    <span class="check-icon icon-type1"></span>
+                                </p>
+                                <p class="item">
+                                    Обратная связь
+                                    <span class="check-icon icon-type1"></span>
+                                </p>
+                                <p class="item">
+                                    Контакты
+                                    <span class="check-icon icon-type1"></span>
+                                </p>
+                            </div>
+                            <h5 class="mill">1 000 000 руб.</h5>
+                            <a href="#order" class="btn-order">Заказать приложение</a>
+                        </div>
+                        <div class="cardapp mouse">
+                            <img src="./images/mouse.svg" alt="mouse" class="pmouse">
+                            <svg class="flag" width="21" height="38" viewBox="0 0 21 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 38V0H21V38L10.5 27.3824L0 38Z" fill="#0C4AB3" />
+                              </svg>
+                              <h6 class="h6_cost">Бизнес</h6>
+                            <div class="list">
+                                <p class="item">
+                                    Программа лояльности
+                                    <span class="check-icon icon-type2"></span>
+                                </p>
+                                <p class="item">
+                                    Push уведомления
+                                    <span class="check-icon icon-type2"></span>
+                                </p>
+                                <p class="item">
+                                    Серверная часть
+                                    <span class="check-icon icon-type2"></span>
+                                </p>
+                                <p class="item">
+                                    Панель управления
+                                    <span class="check-icon icon-type2"></span>
+                                </p>
+                                <p class="item">
+                                    Чаты
+                                    <span class="check-icon icon-type2"></span>
+                                </p>
+                            </div>
+                            <p class="look">показать полностью</p>
+                            <h5 class="mill">2 000 000 руб.</h5>
+                            <a href="#order" class="btn-order">Заказать приложение</a>
+                        </div>
+                        <div class="cardapp">
+                            <svg class="flag" width="21" height="38" viewBox="0 0 21 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 38V0H21V38L10.5 27.3824L0 38Z" fill="#EB5757" />
+                              </svg>
+                              <h6 class="h6_cost">Кастом</h6>
+                              <div class="list">
+                                <p class="item">
+                                    Автоматизация бизнес-процессов
+                                    <span class="check-icon icon-type3"></span>
+                                </p>
+                                <p class="item">
+                                    Сложные интеграции
+                                    <span class="check-icon icon-type3"></span>
+                                </p>
+                                <p class="item">
+                                    Маркетплейс
+                                    <span class="check-icon icon-type3"></span>
+                                </p>
+                                <p class="item">
+                                    Корпоративные решения
+                                    <span class="check-icon icon-type3"></span>
+                                </p>
+                                <p class="item">
+                                    Smart TV, Kit, VR \ AR<
+                                    <span class="check-icon icon-type3"></span>
+                                </p>
+                            </div>
+                            <p class="look">показать полностью</p>
+                            <h5 class="mill">3 000 000 руб.</h5>
+                            <a href="#order" class="btn-order">Заказать приложение</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="tasks">
+            <div class="backgrounderwhite">
+                <div class="container-xxl osnova">
+                    <div class="container">
+                        <div class="text__services">
+                            <h1 class="blackHead tasksHead stages">Какие задачи поможет решить <br /> запуск мобильного приложения</h1>
+                        </div>
+                        <div class="row justify-content-center" style="margin-top: 120px;">
+                            <!-- Features -->
+                            <div class="col-lg-4 col-md-6 order-2 order-lg-1">
+                                <div class="feature">
+                                    <div class="d-flex align-items-center top">
+                                        <img src="./images/one.svg" alt="one" class="icon me-3">  
+                                        <h4 class="card-title Head4 mb-0">Повысить лояльность</h4>
+                                    </div>
+                                    <p class="card-text p6">Мобильное приложение работает намного быстрее <br /> сайта и может выполнять многие функции даже без <br /> интернета. Также здесь не нужно каждый раз <br /> авторизовываться, чтобы оформить заказ или отследить <br /> его статус. Все это создает положительный <br /> пользовательский опыт.</p>
+                                </div>
+                                <div class="feature" style="margin-top: 50px;">
+                                    <div class="d-flex align-items-center top">
+                                        <img src="./images/two.svg" alt="one" class="icon me-3">  
+                                        <h4 class="card-title Head4 mb-0">Автоматизировать продажи</h4>
+                                    </div>
+                                    <p class="card-text p6">С приложением легче провести пользователя по <br /> каждому этапу воронки продаж. С помощью <br /> автоматизации внутри интерфейса можно показывать <br /> ценность продукта, рассказывать о новых функциях, <br /> делать допродажи и напоминать о себе с помощью <br /> пуш-уведомлений.</p>
+                                </div>
+                            </div>
+                
+                            <!-- Phone Image -->
+                            <div class="col-lg-4 col-md-12 text-center order-1 order-lg-2 mb-4 mb-lg-0">
+                                <img src="./images/phone-image.svg" alt="Phone Image" class="phone-image">
+                            </div>
+                
+                            <!-- Features -->
+                            <div class="col-lg-4 col-md-6 order-3 order-lg-3">
+                                <div class="feature">
+                                    <div class="d-flex align-items-center top">
+                                        <img src="./images/three.svg" alt="one" class="icon me-3">  
+                                        <h4 class="card-title Head4 mb-0">Сократить издержки</h4>
+                                    </div>
+                                    <p class="card-text p6">Мобильный сервис помогает сэкономить на рекламном <br /> бюджете и дополнительных сотрудниках. Например, <br /> многие маркетинговые акции можно проводить в самом <br /> приложении и адаптировать рекламу под целевых <br /> пользователей, а часть работы службы поддержки <br /> делегировать автоматическим чат-ботам.</p>
+                                </div>
+                                <div class="feature" style="margin-top: 50px;">
+                                    <div class="d-flex align-items-center top">
+                                        <img src="./images/four.svg" alt="one" class="icon me-3">  
+                                        <h4 class="card-title Head4 mb-0">Увеличить прибыль</h4>
+                                    </div>
+                                    <p class="card-text p6">Повышение уровня клиентского сервиса, экономия на <br /> закупке рекламы на других площадках и <br /> автоматизации процессов положительно скажется и <br /> на итоговой выручке. Вложения в разработку <br /> приложения быстро окупятся, если интерфейс хорошо <br /> справляется со своими задачами.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+        </section>
+
+
+
+
+        <section class="order">
+            <div class="container-xxl">
+                <div class="text__services">
+                    <h1 class="blackHead tasksHead bot stages top">Заказать приложение</h1>
+                </div>
+
+                <div class="container mt-4">
+                    <form class="form" id="order">
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="budget-options flex-fill mb-3 mb-md-0">
+                                <h4 class="formHead">Бюджет проекта:</h4>
+                                <div class="price d-none d-md-grid">
+                                    <!-- Buttons for larger screens -->
+                                    <button type="button" class="btn-app">20 000 — 50 000 руб.</button>
+                                    <button type="button" class="btn-app">50 000 — 100 000 руб.</button>
+                                    <button type="button" class="btn-app">100 000 — 500 000 руб.</button>
+                                    <button type="button" class="btn-app">500 000 — 1 000 000 руб.</button>
+                                    <button type="button" class="btn-app">1 000 000 руб. — 2 000 000 руб.</button>
+                                    <button type="button" class="btn-app">2 000 000 руб. — 3 000 000 руб.</button>
+                                </div>
+                                <select class="form-control d-md-none" id="price-dropdown">
+                                    <!-- Dropdown for smaller screens -->
+                                    <option value="" disabled selected>20 000 — 50 000 руб.</option>
+                                    <option value="10000">20 000 — 50 000 руб.</option>
+                                    <option value="20000">50 000 — 100 000 руб.</option>
+                                    <option value="30000">100 000 — 500 000 руб.</option>
+                                    <option value="40000">500 000 — 1 000 000 руб.</option>
+                                    <option value="50000">1 000 000 руб. — 2 000 000 руб.</option>
+                                    <option value="60000">2 000 000 руб. — 3 000 000 руб.</option>
+                                </select>
+                            </div>
+                            <div class="contact-info flex-fill">
+                                <h4 class="formHead">Контакты:</h4>
+                                <div class="form-row">
+                                    <div class="col-md-12 mb-3">
+                                        <input type="text" placeholder="Имя" aria-label="Имя" required class="form-control">
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                        <input type="tel" placeholder="Телефон" aria-label="Телефон" required class="form-control" pattern="8[0-9]{10}" title="Введите номер телефона, начинающийся с 8 и состоящий из 11 цифр">
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                        <textarea placeholder="Комментарий" aria-label="Комментарий" class="form-control comment"></textarea>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-primary">Заказать обратный звонок</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-xxl">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <!-- Логотип -->
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.svg" alt="logo" class="logo">
+                </a>
+                <!-- Бургер-меню -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Основное меню и блоки -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <!-- Меню -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Наши услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Этапы работы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Стоимость</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ещё
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Статьи</a></li>
+                                <li><a class="dropdown-item" href="#">Вакансии</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Контактная информация -->
+                    <div class="d-flex flex-column contact-info me-3">
+                        <a href="tel:+74993488216" class="phone">8 (499) 348-82-16</a>
+                        <a href="mailto:hello@softerio.ru" class="email">hello@softerio.ru</a>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="btn-messenger d-flex">
+                        <div class="messenger right">
+                            <img src="./images/whatsapp.svg" alt="whatsapp" class="whatsapp">
+                        </div>
+
+                        <div class="messenger">
+                            <img src="./images/telegram.svg" alt="telegram" class="telegram">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </footer>
+    <!-- script for button -->
+    <script src="./button.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
